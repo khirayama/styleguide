@@ -14,7 +14,9 @@
   - スタイルについてはCoffeeLintの標準ルールに従う
   - 実装上不都合が出てきた場合、適宜判断し改修を行う
   - 詳細については[Google JavaScript Style Guide](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)([日本語](http://cou929.nu/data/google_javascript_style_guide/))を参考にする
-  - これらのガイドを参考にしています[Cookpad CoffeeScript Coding Style Guide](https://github.com/cookpad/styleguide/blob/master/coffeescript.ja.md) [GitHub](https://github.com/styleguide/javascript)
+  - これらのガイドを参考にしています
+    - [Cookpad | Cookpad CoffeeScript Coding Style Guide](https://github.com/cookpad/styleguide/blob/master/coffeescript.ja.md)
+    - [GitHub | Coding Style](https://github.com/styleguide/javascript)
 
 ## インデント / 空白 / セミコロン
   - 2スペースとする
