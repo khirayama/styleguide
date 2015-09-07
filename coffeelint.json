@@ -1,10 +1,10 @@
 {
   "arrow_spacing": {
-    "level": "ignore"
+    "level": "error"
   },
   "braces_spacing": {
-    "level": "ignore",
-    "spaces": 0,
+    "level": "error",
+    "spaces": 1,
     "empty_object_spaces": 0
   },
   "camel_case_classes": {
@@ -34,7 +34,7 @@
     "level": "warn"
   },
   "eol_last": {
-    "level": "ignore"
+    "level": "error"
   },
   "indentation": {
     "value": 2,
@@ -45,12 +45,12 @@
     "value": "unix"
   },
   "max_line_length": {
-    "value": 80,
+    "value": 120,
     "level": "error",
     "limitComments": true
   },
   "missing_fat_arrows": {
-    "level": "ignore",
+    "level": "error",
     "is_strict": false
   },
   "newlines_after_classes": {
@@ -61,43 +61,43 @@
     "level": "error"
   },
   "no_debugger": {
-    "level": "warn",
+    "level": "error",
     "console": false
   },
   "no_empty_functions": {
     "level": "ignore"
   },
   "no_empty_param_list": {
-    "level": "ignore"
+    "level": "error"
   },
   "no_implicit_braces": {
-    "level": "ignore",
+    "level": "error",
     "strict": true
   },
   "no_implicit_parens": {
     "strict": true,
-    "level": "ignore"
+    "level": "error"
   },
   "no_interpolation_in_single_quotes": {
-    "level": "ignore"
+    "level": "error"
   },
   "no_nested_string_interpolation": {
-    "level": "warn"
+    "level": "error"
   },
   "no_plusplus": {
-    "level": "ignore"
+    "level": "error"
   },
   "no_private_function_fat_arrows": {
-    "level": "warn"
+    "level": "error"
   },
   "no_stand_alone_at": {
-    "level": "ignore"
+    "level": "error"
   },
   "no_tabs": {
     "level": "error"
   },
   "no_this": {
-    "level": "ignore"
+    "level": "warn"
   },
   "no_throwing_strings": {
     "level": "error"
@@ -111,25 +111,25 @@
     "allowed_in_empty_lines": true
   },
   "no_unnecessary_double_quotes": {
-    "level": "ignore"
+    "level": "error"
   },
   "no_unnecessary_fat_arrows": {
-    "level": "warn"
+    "level": "error"
   },
   "non_empty_constructor_needs_parens": {
-    "level": "ignore"
+    "level": "error"
   },
   "prefer_english_operator": {
-    "level": "ignore",
+    "level": "error",
     "doubleNotLevel": "ignore"
   },
   "space_operators": {
-    "level": "ignore"
+    "level": "error"
   },
   "spacing_after_comma": {
-    "level": "ignore"
+    "level": "error"
   },
   "transform_messes_up_line_numbers": {
-    "level": "warn"
+    "level": "error"
   }
 }
