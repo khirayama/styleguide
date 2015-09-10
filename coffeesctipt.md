@@ -52,9 +52,10 @@
   - 一般的でない特定しにくい省略は避けること
   - [WIP] jQueryの使用に限らずDOMは$開始とすること
   - 文言等の文章は可能な限り一箇所にまとめ、定数として定義すること  
-  ```
-  text =
-    SUCCESS_AJAX: '通信に成功しました'
+
+  ```coffee
+  text =  
+    SUCCESS_AJAX: '通信に成功しました'  
     ERROR: 'エラーが発生しました'
   ```
 
@@ -67,11 +68,12 @@
   - 必然性のないfat allow```=>```は使用しないこと
   - [WIP]イベントが引数として使用される場合、eやevtと省略せずeventとすること```(event) -> some.action()```
   - 単体のthisは避けること。単体でない場合、積極的に使用すること  
-  ```
-  $(this) # OK
-  $(@) #NG
-  $(this.foo) #NG
-  $(@foo) #OK
+
+  ```coffee  
+  $(this) # OK  
+  $(@) #NG  
+  $(this.foo) #NG  
+  $(@foo) #OK  
   ```
 
 ## その他推奨・非推奨事項
