@@ -8,6 +8,7 @@
 - [変数名](#変数名)
 - [関数](#関数)
 - [その他推奨・非推奨事項](#その他推奨非推奨事項)
+- [実装に当たって](#実装に当たって)
 - [関連資料](#関連資料)
 
 ## はじめに
@@ -75,9 +76,25 @@
 ## その他推奨・非推奨事項
 
 - JavaScript埋め込みは使用しないこと
-- JavaScript / CoffeeScriptからDOMにアクセスする場合、そのDOMのクラスにjs-プレフィックスを付与すること[Stylesheet Style Guide参照]
+- JavaScript / CoffeeScriptからDOMにアクセスする場合、そのDOMのクラスにjs-プレフィックスを付与すること
 - JavaScript / CoffeeScriptからスタイルの更新を行う場合、スタイルのプロパティを変更するのではなくクラスの付け替えで行うこと。ドラッグ、タッチはこの限りではない
-- JavaScript / CoffeeScriptからスタイルの更新を行う場合のクラス名はis-プレフィックスを使用すること[Stylesheet Style Guide参照]
+- JavaScript / CoffeeScriptからスタイルの更新を行う場合のクラス名はis-プレフィックスを使用すること
+
+## 実装に当たって
+
+- Viewクラスのイベントを結びつけるメソッドはsetEventListenersで統一すること
+- クラスファイルはPascalCase、他はcamelCaseとする
+- ディレクトリはpascalCaseで設置とする
+- Viewクラスファイルなどはファイル名の最後にViewとつけ、SomeView.js.coffeeとする
+- Rails環境でのディレクトリ構成はroutesに従い、その配下は以下のようにすること
+/some_action/index.js.coffee
+/some_action/show.js.coffee
+/some_action/views/SomeBtnView.js.coffee
+/some_action/views/SomeFormView.js.coffee
+/some_action/views/SomeModalView.js.coffee
+/some_action/utils/SomeUtils.js.coffee
+
+- クラスファイルが単一のroutesをまたぐ場合、javascript/classesに移すこと
 
 ## 関連資料
 - [Hands on Front-end :-) with CoffeeScript](https://github.com/khirayama/handson-front-end)
