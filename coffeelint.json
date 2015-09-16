@@ -75,7 +75,7 @@
     "strict": true
   },
   "no_implicit_parens": {
-    "strict": true,
+    "strict": false,
     "level": "error"
   },
   "no_interpolation_in_single_quotes": {
