@@ -72,7 +72,7 @@
   },
   "no_implicit_braces": {
     "level": "error",
-    "strict": true
+    "strict": false
   },
   "no_implicit_parens": {
     "strict": false,
