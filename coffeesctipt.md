@@ -82,19 +82,22 @@
 
 ## 実装に当たって
 
-- Viewクラスのイベントを結びつけるメソッドはsetEventListenersで統一すること
 - クラスファイルはPascalCase、他はcamelCaseとする
 - ディレクトリはpascalCaseで設置とする
 - Viewクラスファイルなどはファイル名の最後にViewとつけ、SomeView.js.coffeeとする
-- Rails環境でのディレクトリ構成はroutesに従い、その配下は以下のようにすること
+- Rails環境でのディレクトリ構成はroutesに従い、その配下は以下(sample)のようにすること
+- クラスファイルが単一のroutesをまたぐ場合、javascript/classesに移すこと
+- Viewクラスのイベントを結びつけるメソッドはsetEventListenersで統一すること
+
+```
+# sample
 /some_action/index.js.coffee
 /some_action/show.js.coffee
 /some_action/views/SomeBtnView.js.coffee
 /some_action/views/SomeFormView.js.coffee
 /some_action/views/SomeModalView.js.coffee
 /some_action/utils/SomeUtils.js.coffee
-
-- クラスファイルが単一のroutesをまたぐ場合、javascript/classesに移すこと
+```
 
 ## 関連資料
 - [Hands on Front-end :-) with CoffeeScript](https://github.com/khirayama/handson-front-end)
