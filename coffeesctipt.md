@@ -1,6 +1,7 @@
 # CoffeeScript Coding Style Guide
 
 - [はじめに](#はじめに)
+- [ファイル名 / ファイルパス](#ファイル名--ファイルパス)
 - [インデント / 空白 / セミコロン](#インデント--空白--セミコロン)
 - [文字数](#文字数--コメント)
 - [文字列 / 配列 / ハッシュ](#文字列--配列--ハッシュ)
@@ -18,6 +19,9 @@
     - [Google JavaScript Style Guide](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)([日本語](http://cou929.nu/data/google_javascript_style_guide/))
     - [Cookpad | Cookpad CoffeeScript Coding Style Guide](https://github.com/cookpad/styleguide/blob/master/coffeescript.ja.md)
     - [GitHub | Coding Style](https://github.com/styleguide/javascript)
+
+## ファイル名 / ファイルパス
+  - 拡張子は `.js.coffee`
 
 ## インデント / 空白 / セミコロン
   - 2スペースとする
